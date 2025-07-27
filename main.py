@@ -8,6 +8,6 @@ while(True):
 word = input("Введите слово: ")
 word = word.upper()
 if word in words.keys():
-print(words[word])
+    print(words[word])
 else:
-print("Слово не нашлось")
+    print("Слово не нашлось")
